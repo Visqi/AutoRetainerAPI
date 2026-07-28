@@ -18,10 +18,10 @@ public sealed unsafe class InventoryManagementSettings
     public bool IMEnableContextMenu = false;
     public bool IMSkipVendorIfRetainer = false;
     public List<uint> IMAutoVendorHard = [];
-    public List<uint> IMAutoVendorHardIgnoreStack = [];
+    public HashSet<uint> IMAutoVendorHardIgnoreStack = [];
     public List<uint> IMAutoVendorSoft = [];
     public List<uint> IMDiscardList = [];
-    public List<uint> IMDiscardIgnoreStack = [];
+    public HashSet<uint> IMDiscardIgnoreStack = [];
     public List<uint> IMDesynth = [];
     public List<uint> IMProtectList = [];
     public int IMAutoVendorHardStackLimit = 20;
