@@ -32,6 +32,7 @@ public sealed unsafe class InventoryManagementSettings
     public bool IMEnableNpcSell = false;
     public bool AllowSellFromArmory = false;
     public bool EnableCabinetAutoDelivery = false;
+    public bool EnableMirageAutoDelivery = false;
 
     public bool AdditionModeProtectList = true;
     public bool AdditionModeSoftSellList = false;
